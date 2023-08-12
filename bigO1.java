@@ -8,4 +8,4 @@ public class bigO1{
     }
 }
 
-// if I change the value of n then nothing will be change in the time or space complexity. Through out the work the Big O is remain same means constant.
+// if I change the value of n then nothing will be change in the runtime complexity. Through out the work the Big O is remain same means constant.
