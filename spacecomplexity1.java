@@ -13,4 +13,4 @@ public class spacecomplexity1{
         System.out.println(pairSumSequence(3));
     }
 }
-// here the space complexity is O(1) because of same time in a data and out
+// here the space complexity is O(1) because of same time in a data and out.
