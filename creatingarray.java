@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class creatingarray{
     public static void main(String[] args) {
 
-        // 1st way to create a Array. There are 3 steps to create an array. Time complexity is Big O(n)
+        // 1st way to create a Array. There are 3 steps to create an array. Time complexity is Big O(n).
 
         int [] arr; // Declare Array
         arr = new int[3]; // Instantiation of an Array
@@ -14,7 +14,7 @@ public class creatingarray{
         
         // print Array. We cann't print array directly, at first we should import Arrays package and then we convert arrays to string and the print.
 
-        // 2nd way to create a Array. 3 steps together.
+        // 2nd way to create a Array. 3 steps together. Time complexity is Big O(1).
 
         
         String [] arrayNew = {"a", "b", "c"};
