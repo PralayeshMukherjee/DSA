@@ -16,7 +16,16 @@ public class creatingarray{
 
         // 2nd way to create a Array. 3 steps together.
 
+        // 3rd way to create a Array. Declare and Instantiation combination.
+
         String [] arrayNew = {"a", "b", "c"};
         System.out.println(Arrays.toString(arrayNew));
+
+        String [] arrayanother = new String[3];
+        arrayanother[0] = "rice";
+        arrayanother[1] = "chiken";
+        arrayanother[2] = "egg";
+        System.out.println(Arrays.toString(arrayanother));
+
     }
 }
