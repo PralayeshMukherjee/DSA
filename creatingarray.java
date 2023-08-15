@@ -20,7 +20,7 @@ public class creatingarray{
         String [] arrayNew = {"a", "b", "c"};
         System.out.println(Arrays.toString(arrayNew));
         
-        // 3rd way to create a Array. Declare and Instantiation combination.
+        // 3rd way to create a Array. Declare and Instantiation combination. Time complexity is Big O(n).
 
         String [] arrayanother = new String[3];
         arrayanother[0] = "rice";
