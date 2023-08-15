@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class creatingarray{
     public static void main(String[] args) {
 
-        // 1st way to create a Array. There are 3 steps to create an array.
+        // 1st way to create a Array. There are 3 steps to create an array. Time complexity is Big O(n)
 
         int [] arr; // Declare Array
         arr = new int[3]; // Instantiation of an Array
@@ -16,10 +16,11 @@ public class creatingarray{
 
         // 2nd way to create a Array. 3 steps together.
 
-        // 3rd way to create a Array. Declare and Instantiation combination.
-
+        
         String [] arrayNew = {"a", "b", "c"};
         System.out.println(Arrays.toString(arrayNew));
+        
+        // 3rd way to create a Array. Declare and Instantiation combination.
 
         String [] arrayanother = new String[3];
         arrayanother[0] = "rice";
