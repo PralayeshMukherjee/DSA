@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class creatingarray{
     public static void main(String[] args) {
-        
+
         // 1st way to create a Array. There are 3 steps to create an array.
 
         int [] arr; // Declare Array
@@ -13,5 +13,10 @@ public class creatingarray{
         System.out.println(Arrays.toString(arr)); 
         
         // print Array. We cann't print array directly, at first we should import Arrays package and then we convert arrays to string and the print.
+
+        // 2nd way to create a Array. 3 steps together.
+
+        String [] arrayNew = {"a", "b", "c"};
+        System.out.println(Arrays.toString(arrayNew));
     }
 }
