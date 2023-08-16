@@ -28,13 +28,21 @@ public class insertioninarray{
             if(arr[i] == value) {
                 System.out.println("Value is found at the index of "+i);
                 return;
-            }else {
-
-                System.out.println(value+" not found");
             }
         }
+        System.out.println(value+" not found");
     }
 
     // time complexity is Big O(n).
     
+
+    // Delete value from array
+    public void deleteValue(int valueToDeleteIndex) {
+        try{
+            arr[valueToDeleteIndex] = Integer.MIN_VALUE;
+            System.out.println("Deleted Successfully!");
+        }catch(ArrayIndexOutOfBoundsException e) {
+            System.out.println("The value that is provided is not in the range of array");
+        }
+    }
 }
