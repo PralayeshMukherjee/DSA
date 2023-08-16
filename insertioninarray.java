@@ -44,5 +44,7 @@ public class insertioninarray{
         }catch(ArrayIndexOutOfBoundsException e) {
             System.out.println("The value that is provided is not in the range of array");
         }
+
+        // runtime complexity is Big O(1).
     }
 }
