@@ -1,6 +1,5 @@
 public class insertioninarray{
 
-    
     int arr[] = null;
     
     public insertioninarray(int i) {
@@ -9,8 +8,6 @@ public class insertioninarray{
             arr[j] = Integer.MIN_VALUE;
         }
 	}
-	
-    
     public void insert(int location, int valueofInsert) {
         try {
             if(arr[location] == Integer.MIN_VALUE) {
@@ -23,6 +20,6 @@ public class insertioninarray{
             System.out.println("Invalid index to access array!");
         }
     }
-    // runtime complexity is Big O(1).
+    // runtime complexity is Big O(1). 
     
 }
