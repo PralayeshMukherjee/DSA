@@ -28,9 +28,13 @@ public class insertioninarray{
             if(arr[i] == value) {
                 System.out.println("Value is found at the index of "+i);
                 return;
+            }else {
+
+                System.out.println(value+" not found");
             }
         }
-        System.out.println(value+" not found");
     }
+
+    // time complexity is Big O(n).
     
 }
