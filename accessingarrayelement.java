@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class accessingarrayelement{
     public static void main(String[] args) {
         // time complexity is Big O(1)
