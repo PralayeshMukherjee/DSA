@@ -21,5 +21,16 @@ public class insertioninarray{
         }
     }
     // runtime complexity is Big O(1). 
+
+    // Search for an element in the given Array
+    public void searchArray(int value) {
+        for(int i=0;i<arr.length;i++) {
+            if(arr[i] == value) {
+                System.out.println("Value is found at the index of "+i);
+                return;
+            }
+        }
+        System.out.println(value+" not found");
+    }
     
 }
