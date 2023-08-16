@@ -6,6 +6,9 @@ public class main1 {
         arr.insert(2, 30);
         arr.insert(10, 5);
 
-        arr.searchArray(10);
+        arr.searchArray(20);
+
+        arr.deleteValue(0);
+        System.out.println(arr.arr[0]);
     }
 }
