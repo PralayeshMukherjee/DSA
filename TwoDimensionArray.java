@@ -25,5 +25,6 @@ public class TwoDimensionArray{
             System.out.println("Invalid Index");
         }
     }
+    // runtime complexity is Big O(1).
     
 }
