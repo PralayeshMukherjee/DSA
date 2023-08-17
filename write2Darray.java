@@ -12,9 +12,11 @@ public class write2Darray{
         int2DArray[1][1] = 4;
 
         System.out.println(Arrays.deepToString(int2DArray));
+        // runtime complexity is Big O(m n), where m stands for row and n stands for column.
         // All together
 
         String sarr[][] = {{"a","b"},{"c","d"}};
         System.out.println(Arrays.deepToString(sarr));
+        // runtime complexity is Big O(1).
     }
 }
