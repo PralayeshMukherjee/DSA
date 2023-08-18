@@ -69,5 +69,15 @@ public class TwoDimensionArray{
         }
     }
     // The runtime complexity is Big O(n m), [Where n stands for Row and m stands for Column].
+
+    // Delete Two Dimensional Array Element
+    public void deleteArray(int row,int column) {
+        try{
+            arr[row][column] = Integer.MIN_VALUE;
+            System.out.println("Successfully Deleted: "+arr[row][column]);
+        } catch(ArrayIndexOutOfBoundsException e){
+            System.out.println("Invalid Index!");
+        }
+    }
     
 }
