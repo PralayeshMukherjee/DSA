@@ -17,5 +17,8 @@ public class main3{
 
         // Traverse an Array
         array.traverseArray();
+
+        // Searching an element in a 2 Dimension Array
+        array.srarchArray(4);
     }
 }
