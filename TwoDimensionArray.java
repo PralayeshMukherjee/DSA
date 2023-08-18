@@ -52,5 +52,21 @@ public class TwoDimensionArray{
         }
     }
     // runtime complexity is Big O(nm), [Where n stands for Row and m stands for Column].
+
+    // Searching Two Dimension Array
+    public void srarchArray(int value) {
+        try{
+            System.out.println("\n");
+            for(int i=0;i<arr.length;i++) {
+                for(int j=0;j<arr[0].length;j++) {
+                    if(arr[i][j]==value) {
+                        System.out.println("Value is found at Row: "+i+" Column: "+j);
+                    }
+                }
+            }
+        }catch(ArrayIndexOutOfBoundsException e) {
+            System.out.println("Invalid Index!");
+        }
+    }
     
 }
