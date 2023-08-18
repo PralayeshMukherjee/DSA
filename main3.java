@@ -14,5 +14,8 @@ public class main3{
 
         // Access the element in the array
         array.accessArray(0, 1);
+
+        // Traverse an Array
+        array.traverseArray();
     }
 }
