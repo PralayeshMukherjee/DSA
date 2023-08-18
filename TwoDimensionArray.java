@@ -22,9 +22,21 @@ public class TwoDimensionArray{
                 System.out.println("Space Occupied!");
             }
         }catch(ArrayIndexOutOfBoundsException e) {
-            System.out.println("Invalid Index");
+            System.out.println("Invalid Index!");
         }
     }
-    // runtime complexity is Big O(1).
+    // runtime complexity is Big O(1).    
+
+
+    // Access an element of Two Dimension Array
+    public void accessArray(int row, int col) {
+        System.out.println("\nAccessing Row#"+row+", Col#"+col);
+        try{
+            System.out.println("Cell value is "+arr[row][col]);
+        }catch(ArrayIndexOutOfBoundsException e) {
+            System.out.println("Invalid Index!");
+        }
+    }
+    
     
 }
