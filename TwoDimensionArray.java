@@ -68,5 +68,6 @@ public class TwoDimensionArray{
             System.out.println("Invalid Index!");
         }
     }
+    // The runtime complexity is Big O(n m), [Where n stands for Row and m stands for Column].
     
 }
