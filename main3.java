@@ -20,5 +20,8 @@ public class main3{
 
         // Searching an element in a 2 Dimension Array
         array.srarchArray(4);
+
+        // Delete an element in a 2 Dimension Array
+        array.deleteArray(1, 0);
     }
 }
