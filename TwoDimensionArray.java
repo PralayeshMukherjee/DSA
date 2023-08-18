@@ -37,6 +37,20 @@ public class TwoDimensionArray{
             System.out.println("Invalid Index!");
         }
     }
+
+    // Traverse Two Dimension Array
+    public void traverseArray() {
+        System.out.println("\n"); 
+        try{
+            for(int i=0;i<arr.length;i++) {
+                for(int j=0;j<arr[0].length;j++) {
+                    System.out.println(arr[i][j]+" ");
+                }
+            }
+        }catch(ArrayIndexOutOfBoundsException e) {
+            System.out.println("Invalid Index!");
+        }
+    }
     
     
 }
