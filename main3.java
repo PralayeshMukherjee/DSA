@@ -12,5 +12,7 @@ public class main3{
 
         System.out.println(Arrays.deepToString(array.arr));
 
+        // Access the element in the array
+        array.accessArray(0, 1);
     }
 }
