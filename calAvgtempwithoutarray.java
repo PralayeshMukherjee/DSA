@@ -23,5 +23,6 @@ public class calAvgtempwithoutarray{
         }
         double average = sum / numberOfDays;
         System.out.println("Average Temprature = "+average);
+        sc.close();
     }
 }
