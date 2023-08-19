@@ -8,7 +8,7 @@ public class calAvgtempwithoutarray{
         //  Input statement 3 :- Day 2's high temp: 20
         
         //  Output :- Average = 15.0
-        //    2 day's above average 
+        //    1 day's above average 
         
         
         // Write the answer without adding an array
