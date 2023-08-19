@@ -37,5 +37,6 @@ public class CalAvgTempUsingArray{
                 System.out.println(above+" day's above average!");
             }
         }
+        sc.close();
     }
 }
