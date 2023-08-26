@@ -6,7 +6,7 @@ public class InsertionInArrayList{
         ArrayList<Integer> numbers = new ArrayList<Integer>();
         numbers.add(1);
         numbers.add(2);
-        numbers.add(3);
+        numbers.add(3); // time & space complexity is Big O(1)
         numbers.add(2,4); // if I use this method to inserting an element then the specific element implement at the mention index of an ArrayList and the past element which was stand at the mention index, move to the right element box of an ArrayList.
         System.out.println(numbers);
         // ArrayList for a String
