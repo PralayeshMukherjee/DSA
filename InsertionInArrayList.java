@@ -8,5 +8,7 @@ public class InsertionInArrayList{
         numbers.add(2);
         numbers.add(3);
         System.out.println(numbers);
+        // ArrayList for a String
+        ArrayList<String> names = new ArrayList<String>();
     }
 }
