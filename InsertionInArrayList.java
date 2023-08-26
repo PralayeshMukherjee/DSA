@@ -10,5 +10,11 @@ public class InsertionInArrayList{
         System.out.println(numbers);
         // ArrayList for a String
         ArrayList<String> names = new ArrayList<String>();
+        names.add("raj");
+        names.add("sarbojit");
+        names.add("maharnob");
+        names.add("anjan");
+        names.add("handa");
+        System.out.println(names);
     }
 }
