@@ -15,7 +15,8 @@ public class InsertionInArrayList{
         names.add("sarbojit");
         names.add("maharnob");
         names.add("anjan");
-        names.add("handa");
+        names.add("arpan");
+        names.add(3,"shubham"); // same as 10 number line but I'm using this for a String
         System.out.println(names);
     }
 }
