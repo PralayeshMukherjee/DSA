@@ -18,3 +18,6 @@ public class AccessingElementInArrayList{
 
     }
 }
+
+// the runtime complexity is Big O(1)
+// the space complexity is Big O(1)
