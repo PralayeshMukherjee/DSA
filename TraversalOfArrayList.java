@@ -23,5 +23,7 @@ public class TraversalOfArrayList{
         for(String traversalNames: names) {
             System.out.println(traversalNames);
         }
+        // runtime complexity for the 2nd way is Big O(n)
+        // space complexity for the 2nd way is Big O(1)
     }
 }
