@@ -16,5 +16,7 @@ public class TraversalOfArrayList{
             String allNames = names.get(i);
             System.out.println(allNames);
         }
+        // runtime complexity for the traversal using for loop is Big O(n)
+        // space complexity for the traversal using for loop is Big O(1)
     }
 }
