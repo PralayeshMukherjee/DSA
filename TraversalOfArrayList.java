@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Iterator;
+
 
 public class TraversalOfArrayList{
     public static void main(String[] args) {
@@ -25,5 +27,13 @@ public class TraversalOfArrayList{
         }
         // runtime complexity for the 2nd way is Big O(n)
         // space complexity for the 2nd way is Big O(1)
+
+        // 3rd way 
+        Iterator <String> iterator = names.iterator();
+        while(iterator.hasNext()) {
+            String namesAll = iterator.next();
+            System.out.println(namesAll);
+        }
+
     }
 }
