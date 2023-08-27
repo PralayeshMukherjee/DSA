@@ -34,6 +34,7 @@ public class TraversalOfArrayList{
             String namesAll = iterator.next();
             System.out.println(namesAll);
         }
-
+        // runtime complexity for the iterator method is Big O(n)
+        // space complexity for the iterator method is Big O(1)
     }
 }
