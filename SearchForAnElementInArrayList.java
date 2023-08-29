@@ -31,4 +31,7 @@ public class SearchForAnElementInArrayList{
             }
         }
     }
+
+    // The runtime complexity is Big O(n)
+    // The space complexity is Big O(1)
 }
