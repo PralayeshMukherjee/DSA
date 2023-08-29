@@ -10,5 +10,14 @@ public class SearchForAnElementInArrayList{
         names.add("anjan");
         names.add("arpan");
         System.out.println(names);
+
+        // way to search an element in an ArrayList
+        // 1st way
+        for(String SearchElement: names) {
+            if(SearchElement.equals("arpan")) {
+                System.out.println("The element is found");
+                break;
+            }
+        }
     }
 }
