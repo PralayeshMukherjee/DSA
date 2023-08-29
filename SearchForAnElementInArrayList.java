@@ -19,5 +19,8 @@ public class SearchForAnElementInArrayList{
                 break;
             }
         }
+        // 2nd way
+        int index = names.indexOf("anjan");
+        System.out.println("The element is found at index: "+index);
     }
 }
