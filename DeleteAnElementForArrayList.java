@@ -10,5 +10,8 @@ public class DeleteAnElementForArrayList{
         names.add("anjan");
         names.add("arpan");
         System.out.println(names);
+        // delete an element for ArrayList
+        names.remove("maharnob");
+        System.out.println(names);
     }
 }
