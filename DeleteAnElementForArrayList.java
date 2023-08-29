@@ -14,4 +14,7 @@ public class DeleteAnElementForArrayList{
         names.remove("maharnob");
         System.out.println(names);
     }
+
+    // The runtime complexity is Big O(n)
+    // The space complexity is Big O(1)
 }
