@@ -22,5 +22,13 @@ public class SearchForAnElementInArrayList{
         // 2nd way
         int index = names.indexOf("anjan");
         System.out.println("The element is found at index: "+index);
+        
+        // 3rd
+        String thename = "maharnob";
+        for(int i=0;i<names.size();i++) {
+            if(thename==names.get(i)) {
+                System.out.println("The element is found at index: "+i);
+            }
+        }
     }
 }
