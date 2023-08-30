@@ -13,6 +13,7 @@ public class TraversalOfArrayList{
         names.add(2,"anjan");
         System.out.println(names);
         // Traversal Of ArrayList
+        
         // 1st way
         for(int i=0;i<names.size();i++) {
             String allNames = names.get(i);
