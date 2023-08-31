@@ -22,3 +22,5 @@ public class interviewQuestion1{
         System.out.println(sum+" , "+product);
     }
 }
+
+// The runtime complexity for this funtion is Big O(n).
