@@ -14,4 +14,6 @@ public class interviewQuestion2{
             }
         }
     }
+
+    // The runtime complexity for the function is Big O(n^2).
 } 
