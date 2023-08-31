@@ -11,7 +11,7 @@ public class DeleteAnElementForArrayList{
         names.add("arpan");
         System.out.println(names);
         // delete an element for ArrayList
-        names.remove("maharnob");
+        names.remove("maharnob"); // After deleting the element("maharnob"), the others elements after 'maharnob'element all elements shifts to left by 1.
         System.out.println(names);
     }
 
