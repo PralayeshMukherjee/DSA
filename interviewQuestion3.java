@@ -14,3 +14,18 @@ public class interviewQuestion3{
         }
     }
 }
+
+// There are 2 way to find out the runtime complexity for the given function
+
+// 1st method:=> Counting the iterations
+// 1st -> (n-1)
+// 2nd -> (n-2)
+// ..... 1
+// so we can write, (n-1) + (n-2) + (n-3) + ... + 3 + 2 + 1
+//  or, 1 + 2 + 3 + (n-3) + (n-2) + (n-1)
+// or, n(n-1) / 2
+// or, ((n^2) / 2) - (n / 2)
+// after droping the constant, ((n^2) - n)
+// or, (n^2) [because n^2 >> n]
+
+// so, the runtime complexity for the given function is Big O(n^2).
