@@ -18,3 +18,8 @@ public class interviewQuestion4{
         }
     }
 }
+
+// the runtime complexity for the if statement is Big O(1)
+// it's a nested loop but the runtime complexity is not Big O(n^2) because there are 2 different arrays let suppose the totle numbers of element in the first array is n and the second array is m.
+// So, the runtime complexity for the nested loop is Big O(n * m)
+// So, the runtime complexity for the whole function is Big O(n*m).
