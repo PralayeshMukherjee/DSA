@@ -29,3 +29,9 @@ public class interviewQuestion3{
 // or, (n^2) [because n^2 >> n]
 
 // so, the runtime complexity for the given function is Big O(n^2).
+
+// 2nd method:=> Average Work
+// the runtime complexity for the outer loop is Big O(n)
+// the runtime complexity for the inner loop is after decreases by 1 is O(n/2)
+// so the runtime complexity for the whole method is Big O(n * n/2) = Big O(n^2 / 2)
+// so, Big O(n^2) [after droping the constant]
