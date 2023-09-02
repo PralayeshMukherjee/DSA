@@ -7,8 +7,8 @@ public class interviewQuestion6{
         arr.rseserveArray(customArray);
     }
     void rseserveArray(int[] array) {
-        for(int i=array.length-1;i<=0;i--) {
-            System.out.println(array);
+        for(int i=0;i<array.length/2;i++) {
+            int other = array.length-i-1;
         }
     }
 }
