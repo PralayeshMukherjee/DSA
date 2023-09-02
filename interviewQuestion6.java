@@ -18,3 +18,7 @@ public class interviewQuestion6{
         System.out.println(Arrays.toString(array));
     }
 }
+// time complexity for the for loop is Big O(n/2) and after droping the constant the runtime complexity is Big O(n)
+// runtime complexity for the printing the reverse array is Big O(n).
+// for the other statement the runtime complexity is Big O(1).
+// The runtime complexity for the method is Big O(n).
