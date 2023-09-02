@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class interviewQuestion6{
     public static void main(String[] args) {
         // Created a method which takes an array as a parameter and reverse it
@@ -11,6 +13,8 @@ public class interviewQuestion6{
             int other = array.length-i-1;
             int temporary = array[i];
             array[i] = array[other];
+            array[other] = temporary;
         }
+        System.out.println(Arrays.toString(array));
     }
 }
