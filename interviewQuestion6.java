@@ -10,6 +10,7 @@ public class interviewQuestion6{
         for(int i=0;i<array.length/2;i++) {
             int other = array.length-i-1;
             int temporary = array[i];
+            array[i] = array[other];
         }
     }
 }
