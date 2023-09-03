@@ -15,6 +15,7 @@ public class interviewQuestion6{
             array[i] = array[other];
             array[other] = temp;
         }
+        System.out.println(Arrays.toString(array));
     }
 }
 // time complexity for the for loop is Big O(n/2) and after droping the constant the runtime complexity is Big O(n)
