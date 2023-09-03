@@ -9,13 +9,7 @@ public class interviewQuestion6{
         arr.rseserveArray(customArray);
     }
     void rseserveArray(int[] array) {
-        for(int i=0;i<array.length/2;i++) {
-            int other = array.length-i-1;
-            int temporary = array[i];
-            array[i] = array[other];
-            array[other] = temporary;
-        }
-        System.out.println(Arrays.toString(array));
+        
     }
 }
 // time complexity for the for loop is Big O(n/2) and after droping the constant the runtime complexity is Big O(n)
