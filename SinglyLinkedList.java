@@ -14,3 +14,5 @@ public class SinglyLinkedList{
         return head;// return head
     } 
 }
+
+// The runtime complexity for creating a Singly Linked List is Big O(1).
