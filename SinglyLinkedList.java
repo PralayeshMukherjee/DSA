@@ -16,3 +16,4 @@ public class SinglyLinkedList{
 }
 
 // The runtime complexity for creating a Singly Linked List is Big O(1).
+// The space complexity is Big B(1).
