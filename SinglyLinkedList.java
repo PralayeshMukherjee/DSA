@@ -13,7 +13,11 @@ public class SinglyLinkedList{
         size = 1;// setting the size of the node
         return head;// return head
     } 
-}
+    // The runtime complexity for creating a Singly Linked List is Big O(1).
+    // The space complexity is Big B(1).
 
-// The runtime complexity for creating a Singly Linked List is Big O(1).
-// The space complexity is Big B(1).
+    // Insert Method Singly Linked List
+    public void insertInLinkedList(int nodeValue, int location) {
+        
+    }
+}
