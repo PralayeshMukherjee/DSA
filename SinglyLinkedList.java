@@ -26,6 +26,8 @@ public class SinglyLinkedList{
         } else if(location == 0) {
             node.next = head;
             head = node;
+        } else if(location >= size) {
+            
         }
     }
 }
