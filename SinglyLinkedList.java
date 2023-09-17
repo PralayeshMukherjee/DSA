@@ -23,6 +23,9 @@ public class SinglyLinkedList{
         if(head == null) {
             createSinglyLinkedList(nodeValue);
             return;
+        } else if(location == 0) {
+            node.next = head;
+            head = node;
         }
     }
 }
