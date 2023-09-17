@@ -17,11 +17,5 @@ public class SinglyLinkedList{
     // The space complexity is Big B(1).
 
     // Insert Method Singly Linked List
-    public void insertInLinkedList(int nodeValue, int location) {
-        Node node = new Node();
-        node.value = nodeValue;
-        if(head == null) {
-            createSinglyLinkedList(nodeValue);
-        }
-    }
+    
 }
