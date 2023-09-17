@@ -31,7 +31,12 @@ public class SinglyLinkedList{
             tail.next = node;
             tail = node;
         } else {
-            
+            Node tempNode = head;
+            int index = 0;
+            while(index < location - 1) {
+                tempNode = tempNode.next;
+                index++;
+            }
         }
     }
 }
