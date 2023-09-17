@@ -19,5 +19,6 @@ public class SinglyLinkedList{
     // Insert Method Singly Linked List
     public void insertInLinkedList(int nodeValue, int location) {
         Node node = new Node();
+        node.value = nodeValue;
     }
 }
