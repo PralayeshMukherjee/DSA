@@ -20,5 +20,9 @@ public class SinglyLinkedList{
     public void insertInLinkedList(int nodeValue, int location) {
         Node node = new Node();
         node.value = nodeValue;
+        if(head == null) {
+            createSinglyLinkedList(nodeValue);
+            return;
+        }
     }
 }
