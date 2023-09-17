@@ -37,6 +37,9 @@ public class SinglyLinkedList{
                 tempNode = tempNode.next;
                 index++;
             }
+            Node nextNode = tempNode.next;
+            tempNode.next = node;
+            node.next = nextNode;
         }
     }
 }
