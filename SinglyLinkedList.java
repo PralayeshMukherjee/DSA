@@ -30,6 +30,8 @@ public class SinglyLinkedList{
             node.next = null;
             tail.next = node;
             tail = node;
+        } else {
+            
         }
     }
 }
