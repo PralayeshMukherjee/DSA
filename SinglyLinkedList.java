@@ -27,7 +27,9 @@ public class SinglyLinkedList{
             node.next = head;
             head = node;
         } else if(location >= size) {
-            
+            node.next = null;
+            tail.next = node;
+            tail = node;
         }
     }
 }
