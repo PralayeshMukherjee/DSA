@@ -41,5 +41,6 @@ public class SinglyLinkedList{
             tempNode.next = node;
             node.next = nextNode;
         }
+        size++;
     }
 }
