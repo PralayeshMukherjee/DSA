@@ -59,5 +59,7 @@ public class SinglyLinkedList{
             }
         }
         System.out.println("\n");
+        // runtime complexity for the traverse method is O(N).
+        // space complexity for the traverse method is O(1).
     }
 }
