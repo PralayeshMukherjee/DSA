@@ -58,5 +58,6 @@ public class SinglyLinkedList{
                 tempNode = tempNode.next;
             }
         }
+        System.out.println("\n");
     }
 }
