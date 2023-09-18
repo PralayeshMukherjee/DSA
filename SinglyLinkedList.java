@@ -50,6 +50,9 @@ public class SinglyLinkedList{
             System.out.println("Singly Linked List does not exist!");
         }else {
             Node tempNode = head;
+            for(int i=0; i<size;i++) {
+                
+            }
         }
     }
 }
