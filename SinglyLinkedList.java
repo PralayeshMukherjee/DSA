@@ -51,7 +51,7 @@ public class SinglyLinkedList{
         }else {
             Node tempNode = head;
             for(int i=0; i<size;i++) {
-                
+                System.out.println(tempNode.value);
             }
         }
     }
