@@ -45,4 +45,7 @@ public class SinglyLinkedList{
     }
 
     // Singly Linked List Traversal
+    public void traverseSinglyLinkedList() {
+        
+    }
 }
