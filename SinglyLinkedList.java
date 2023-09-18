@@ -48,6 +48,8 @@ public class SinglyLinkedList{
     public void traverseSinglyLinkedList() {
         if(head == null) {
             System.out.println("Singly Linked List does not exist!");
+        }else {
+            Node tempNode = head;
         }
     }
 }
