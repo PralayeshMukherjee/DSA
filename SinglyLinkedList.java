@@ -78,4 +78,5 @@ public class SinglyLinkedList{
         System.out.println("Node not found! ");
         return false;
     }
+    // the runtime complexity for the searching function is Big O(N).
 }
