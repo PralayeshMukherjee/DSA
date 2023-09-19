@@ -70,6 +70,7 @@ public class SinglyLinkedList{
             for(int i=0;i<size;i++) {
                 if(tempNode.value == nodeValue) {
                     System.out.println("Found the node at location: " + i + "\n");
+                    return true;
                 }
             }
         }
