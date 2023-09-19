@@ -75,5 +75,7 @@ public class SinglyLinkedList{
                 tempNode = tempNode.next;
             }
         }
+        System.out.println("Node not found! ");
+        return false;
     }
 }
