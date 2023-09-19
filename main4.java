@@ -17,5 +17,6 @@ public class main4{
         sLL.traverseSinglyLinkedList();
 
         // Searching in A Singly Linked List
+        sLL.searchNode(9);
     }
 }
