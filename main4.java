@@ -7,7 +7,7 @@ public class main4{
         // Inserting node in a Singly Linked List function
         sLL.insertInLinkedList(6, 0);
         System.out.println(sLL.head.value);
-
+        // Traverse Singly Linked List function
         sLL.insertInLinkedList(6, 1);
         sLL.insertInLinkedList(7, 3);
         sLL.insertInLinkedList(8, 4);
