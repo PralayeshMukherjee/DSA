@@ -66,7 +66,10 @@ public class SinglyLinkedList{
     // Search for a node in a Singly Linked List
     boolean searchNode(int nodeValue) {
         if(head != null) {
-            
+            Node tempNode = head;
+            for(int i=0;i<size;i++) {
+                
+            }
         }
     }
 }
