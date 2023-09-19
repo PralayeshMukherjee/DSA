@@ -4,7 +4,7 @@ public class main4{
         SinglyLinkedList sLL = new SinglyLinkedList();
         sLL.createSinglyLinkedList(5);
         System.out.println(sLL.head.value);
-        
+        // Inserting node in a Singly Linked List function
         sLL.insertInLinkedList(6, 0);
         System.out.println(sLL.head.value);
 
