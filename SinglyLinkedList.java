@@ -64,4 +64,7 @@ public class SinglyLinkedList{
     }
 
     // Search for a node in a Singly Linked List
+    boolean searchNode(int nodeValue) {
+        
+    }
 }
