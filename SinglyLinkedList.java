@@ -72,6 +72,7 @@ public class SinglyLinkedList{
                     System.out.println("Found the node at location: " + i + "\n");
                     return true;
                 }
+                tempNode = tempNode.next;
             }
         }
     }
