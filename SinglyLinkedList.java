@@ -79,4 +79,5 @@ public class SinglyLinkedList{
         return false;
     }
     // the runtime complexity for the searching function is Big O(N).
+    // the space complexity for the searching function is Big O(1).
 }
