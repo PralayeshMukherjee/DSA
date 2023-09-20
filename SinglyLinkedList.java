@@ -13,6 +13,7 @@ public class SinglyLinkedList{
         size = 1;// setting the size of the node
         return head;// return head
     } 
+    
     // The runtime complexity for creating a Singly Linked List is Big O(1).
     // The space complexity is Big B(1).
 
@@ -59,6 +60,7 @@ public class SinglyLinkedList{
             }
         }
         System.out.println("\n");
+
         // runtime complexity for the traverse method is O(N).
         // space complexity for the traverse method is O(1).
     }
@@ -78,6 +80,7 @@ public class SinglyLinkedList{
         System.out.println("Node not found! ");
         return false;
     }
+
     // the runtime complexity for the searching function is Big O(N).
     // the space complexity for the searching function is Big O(1).
 }
