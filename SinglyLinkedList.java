@@ -11,7 +11,7 @@ public class SinglyLinkedList{
         head = node;// setting head to node 
         tail = node;// setting tail to node
         size = 1;// setting the size of the node
-        return head;// return head
+        return head;// return head.
     } 
     
     // The runtime complexity for creating a Singly Linked List is Big O(1).
