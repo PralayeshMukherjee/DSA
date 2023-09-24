@@ -65,7 +65,7 @@ public class SinglyLinkedList{
         // space complexity for the traverse method is O(1).
     }
 
-    // Search for a node in a Singly Linked List
+    // Search for a node in a Singly Linked List:-
     boolean searchNode(int nodeValue) {
         if(head != null) {
             Node tempNode = head;
