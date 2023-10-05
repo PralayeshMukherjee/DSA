@@ -85,4 +85,9 @@ public class SinglyLinkedList{
     // the space complexity for the searching function is Big O(1).
 
     // Deletion in Singly Linked List
+    public void deletingSinglyLinkedList(int location) {
+        
+    }
+
+
 }
