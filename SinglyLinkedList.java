@@ -90,7 +90,7 @@ public class SinglyLinkedList{
             System.out.println("This Singly Linked List does not exist");
             return;
         }else if(location == 0) {
-            
+            head = head.next;
         }
     }
 
