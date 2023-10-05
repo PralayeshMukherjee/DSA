@@ -89,6 +89,8 @@ public class SinglyLinkedList{
         if (head == null ) {
             System.out.println("This Singly Linked List does not exist");
             return;
+        }else if(location == 0) {
+            
         }
     }
 
