@@ -86,7 +86,10 @@ public class SinglyLinkedList{
 
     // Deletion in Singly Linked List
     public void deletingSinglyLinkedList(int location) {
-        
+        if (head == null ) {
+            System.out.println("This Singly Linked List does not exist");
+            return;
+        }
     }
 
 
