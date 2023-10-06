@@ -93,7 +93,7 @@ public class SinglyLinkedList{
             head = head.next;
             size--;
             if(size == 0) {
-                
+                tail = null;
             }
         }
     }
