@@ -92,8 +92,9 @@ public class SinglyLinkedList{
         }else if(location == 0) {
             head = head.next;
             size--;
-        }else if(size == 0) {
-            
+            if(size == 0) {
+                
+            }
         }
     }
 
